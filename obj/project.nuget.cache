@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r7sVRHBf+UE=",
+  "dgSpecHash": "k5x8GwjnX8I=",
   "success": true,
   "projectFilePath": "C:\\Users\\zhangkun\\Downloads\\RooCode\\tasks\\pwa-actions-mcp\\PwaActionsMcp\\PwaActionsMcp.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,9 @@
     "Q:\\.tools\\.nuget\\packages\\system.net.serversentevents\\10.0.0-preview.2.25163.2\\system.net.serversentevents.10.0.0-preview.2.25163.2.nupkg.sha512",
     "Q:\\.tools\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
     "Q:\\.tools\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512",
+    "Q:\\.tools\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.15\\microsoft.netcore.app.runtime.win-x64.8.0.15.nupkg.sha512",
+    "Q:\\.tools\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.15\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.15.nupkg.sha512",
+    "Q:\\.tools\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.15\\microsoft.aspnetcore.app.runtime.win-x64.8.0.15.nupkg.sha512",
     "Q:\\.tools\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
   ],
   "logs": []
