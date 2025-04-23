@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PwaActionsMcp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3323586acad71618022d0656972db8be9973b61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d366d3400436d7f4310dcc78f46d6b320114423e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PwaActionsMcp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PwaActionsMcp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

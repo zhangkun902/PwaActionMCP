@@ -20,7 +20,7 @@ public static class PwaActionTools
     {
         return await LaunchPwaAction(
             "web+wami://resize",
-            "microsoftedge.github.io-44696A99_5gmymy4r41ddc",
+            GetWamiPackageFamilyName("microsoftedge.github.io-44696A99_5gmymy4r41ddc"),
             File,
             "File"
         );
@@ -33,7 +33,7 @@ public static class PwaActionTools
     {
         return await LaunchPwaAction(
             "web+wami://blur",
-            "microsoftedge.github.io-44696A99_5gmymy4r41ddc",
+            GetWamiPackageFamilyName("microsoftedge.github.io-44696A99_5gmymy4r41ddc"),
             File,
             "File"
         );
@@ -48,7 +48,7 @@ public static class PwaActionTools
     {
         return await LaunchPwaAction(
             "web+pwa://editimage",
-            "zhangkun902.github.io-98DF0E21_hbvpby5sxra9r",
+            GetSamplePackageFamilyName("zhangkun902.github.io-98DF0E21_hbvpby5sxra9r"),
             imageOne,
             "imageOne"
         );
@@ -61,13 +61,25 @@ public static class PwaActionTools
     {
         return await LaunchPwaAction(
             "web+pwa://watchmovie",
-            "zhangkun902.github.io-98DF0E21_hbvpby5sxra9r",
+            GetSamplePackageFamilyName("zhangkun902.github.io-98DF0E21_hbvpby5sxra9r"),
             Video,
             "Video"
         );
     }
 
     // --- END AUTO-GENERATED TOOLS ---
+
+    private static string GetWamiPackageFamilyName(string defaultValue)
+    {
+        var env = Environment.GetEnvironmentVariable("PWA_MCP_WAMI_PACKAGE_FAMILY_NAME");
+        return string.IsNullOrEmpty(env) ? defaultValue : env;
+    }
+
+    private static string GetSamplePackageFamilyName(string defaultValue)
+    {
+        var env = Environment.GetEnvironmentVariable("PWA_MCP_SAMPLE_PACKAGE_FAMILY_NAME");
+        return string.IsNullOrEmpty(env) ? defaultValue : env;
+    }
 
     private static async Task<string> LaunchPwaAction(
         string uri,

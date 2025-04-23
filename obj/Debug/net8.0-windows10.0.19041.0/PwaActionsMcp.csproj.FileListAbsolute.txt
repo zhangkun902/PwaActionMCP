@@ -52,3 +52,4 @@ C:\Users\zhangkun\Downloads\RooCode\tasks\pwa-actions-mcp\PwaActionsMcp\obj\Debu
 C:\Users\zhangkun\Downloads\RooCode\tasks\pwa-actions-mcp\PwaActionsMcp\obj\Debug\net8.0-windows10.0.19041.0\PwaActionsMcp.pdb
 C:\Users\zhangkun\Downloads\RooCode\tasks\pwa-actions-mcp\PwaActionsMcp\obj\Debug\net8.0-windows10.0.19041.0\PwaActionsMcp.genruntimeconfig.cache
 C:\Users\zhangkun\Downloads\RooCode\tasks\pwa-actions-mcp\PwaActionsMcp\obj\Debug\net8.0-windows10.0.19041.0\ref\PwaActionsMcp.dll
+C:\Users\zhangkun\Downloads\RooCode\tasks\pwa-actions-mcp\PwaActionsMcp\obj\Debug\net8.0-windows10.0.19041.0\PwaActionsMcp.sourcelink.json
