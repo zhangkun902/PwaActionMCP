@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "packageFamilyName": "zhangkun902.github.io-98DF0E21_hbvpby5sxra9r",
+  "actions": [
+    {
+      "id": "Edit.Image",
+      "description": "Edit an image",
+      "kind": "Edit",
+      "inputs": [
+        {
+          "name": "imageOne",
+          "kind": "File"
+        }
+      ],
+      "outputs": [],
+      "invocation": {
+        "type": "Uri",
+        "uri": "web+pwa://editimage"
+      },
+      "inputCombinations": [
+        {
+          "inputs": [ "File" ],
+          "description": "Image will be edited."
+        }
+      ]
+    },
+    {
+      "id": "Watch.movie",
+      "description": "Watch a movie",
+      "kind": "Watch",
+      "inputs": [
+        {
+          "name": "Video",
+          "kind": "File"
+        }
+      ],
+      "outputs": [],
+      "invocation": {
+        "type": "Uri",
+        "uri": "web+pwa://watchmovie"
+      },
+      "inputCombinations": [
+        {
+          "inputs": [ "File" ],
+          "description": "Watch a movie"
+        }
+      ]
+    }
+  ]
+}
