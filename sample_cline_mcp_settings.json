@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+      "pwa-action": {
+        "command": "C:\\Users\\zhangkun\\Downloads\\RooCode\\tasks\\pwa-actions-mcp\\PwaActionsMcp\\publish\\PwaActionsMcp.exe",
+        "args": ["microsoftedge.github.io-44696A99_5gmymy4r41ddc", "zhangkun902.github.io-98DF0E21_hbvpby5sxra9r"],
+        "alwaysAllow": [],
+        "disabled": false
+      }
+    }
+  }
