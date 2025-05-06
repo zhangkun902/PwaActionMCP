@@ -15,8 +15,8 @@ public static class PwaActionTools
 
     [McpServerTool]
     [Description("Resize the image to a specific width")]
-    public static async Task<string> Wami_Resize_Width(
-        [Description("Photo to be resized in Wami.")] string File)
+    public static async Task<string> Resize_Image_Width(
+        [Description("Photo to be resized.")] string File)
     {
         return await LaunchPwaAction(
             "web+wami://resize",
@@ -28,11 +28,37 @@ public static class PwaActionTools
 
     [McpServerTool]
     [Description("Blur the image with a Gaussian operator")]
-    public static async Task<string> Wami_Blur(
-        [Description("Photo to be blurred in Wami.")] string File)
+    public static async Task<string> Blur_Image(
+        [Description("Photo to be blurred.")] string File)
     {
         return await LaunchPwaAction(
             "web+wami://blur",
+            GetWamiPackageFamilyName("microsoftedge.github.io-44696A99_5gmymy4r41ddc"),
+            File,
+            "File"
+        );
+    }
+
+    [McpServerTool]
+    [Description("Rotate the image by 90 degrees")]
+    public static async Task<string> Rotate_Image(
+        [Description("Photo to be rotated.")] string File)
+    {
+        return await LaunchPwaAction(
+            "web+wami://rotate",
+            GetWamiPackageFamilyName("microsoftedge.github.io-44696A99_5gmymy4r41ddc"),
+            File,
+            "File"
+        );
+    }
+
+    [McpServerTool]
+    [Description("Convert the image to oil paint style")]
+    public static async Task<string> Paint_Image(
+        [Description("Photo to be converted to oil paint style.")] string File)
+    {
+        return await LaunchPwaAction(
+            "web+wami://paint",
             GetWamiPackageFamilyName("microsoftedge.github.io-44696A99_5gmymy4r41ddc"),
             File,
             "File"
@@ -43,7 +69,7 @@ public static class PwaActionTools
 
     [McpServerTool]
     [Description("Edit an image")]
-    public static async Task<string> Sample_Edit_Image(
+    public static async Task<string> Edit_Image(
         [Description("Image will be edited.")] string imageOne)
     {
         return await LaunchPwaAction(
@@ -56,7 +82,7 @@ public static class PwaActionTools
 
     [McpServerTool]
     [Description("Watch a movie")]
-    public static async Task<string> Sample_Watch_movie(
+    public static async Task<string> Watch_movie(
         [Description("Watch a movie")] string Video)
     {
         return await LaunchPwaAction(
